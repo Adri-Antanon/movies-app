@@ -1,0 +1,72 @@
+.header {
+  background-color: var(--main-color);
+  color: white;
+  padding: 0 10rem;
+  display: flex;
+  &__logos {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+    a {
+      display: flex;
+      align-items: center;
+      padding: 0 1rem;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    a:first-child {
+      padding: 0;
+    }
+    &--logo {
+      margin-right: 2rem;
+    }
+  }
+
+  .icon {
+    width: fit-content;
+    height: fit-content;
+    margin: auto 0.5rem;
+  }
+
+  &__options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+
+    & > div {
+      display: flex;
+      justify-content: center;
+      padding: 0 1.5rem;
+      border-right: 1px solid white;
+    }
+
+    &--filter {
+      background-color: var(--main--hover-color);
+      border-left: 1px solid white;
+      margin-left: 1rem;
+    }
+
+    &--login {
+      border-left: 1px solid white;
+
+      margin-right: 1rem;
+    }
+
+    button {
+      font-weight: 600;
+      background-color: var(--secondary-color);
+      color: white;
+      text-decoration: none;
+      border-radius: 1.2rem;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

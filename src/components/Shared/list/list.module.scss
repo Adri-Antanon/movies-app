@@ -1,0 +1,21 @@
+.container {
+  padding: 1rem 8%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  color: white;
+  padding: 2rem;
+}

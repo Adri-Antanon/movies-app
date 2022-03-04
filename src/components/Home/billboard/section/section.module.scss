@@ -1,0 +1,28 @@
+.billboard__container {
+  display: block;
+  position: relative;
+  opacity: 0.75;
+  img {
+    max-width: 100%;
+  }
+  &:hover {
+    opacity: 1;
+  }
+  span {
+    background-color: var(--secondary-color-hover);
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 95.85%;
+    display: block;
+    font-size: 3.6rem;
+    font-weight: bold;
+    height: 6rem;
+    line-height: 6rem;
+    padding-left: 3rem;
+    position: absolute;
+  }
+  img + span:hover {
+    background-color: var(--secondary-color);
+  }
+}

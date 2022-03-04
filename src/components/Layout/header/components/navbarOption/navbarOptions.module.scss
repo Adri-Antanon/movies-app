@@ -1,0 +1,17 @@
+.icon {
+  width: fit-content;
+  height: fit-content;
+  margin: auto 0.5rem;
+}
+
+a.active {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: white;
+  cursor: pointer;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+}
